@@ -6,3 +6,4 @@ touch $FILENAME
 echo "# $(date +'%A, %B %e, %Y %I:%M %p')" >> $FILENAME
 echo "- [ ]" >> $FILENAME
 echo "$FILENAME"
+code $FILENAME 
